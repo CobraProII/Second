@@ -70,11 +70,12 @@ nav img {
    transition: all 0.3 ease 0s;
    justify-content: space-between;
    align-items: center;
+   margin: 8px;
+   padding: 10px;
 }
 .Login {
     text-align: right;
     justify-content: space-between;
-    margin: 10px;
 }
 
 #log:hover {
@@ -96,7 +97,8 @@ nav img {
 .search-bar {
     width: 50%;
     max-width: 300px;
-    background: #eb985c;
+    height: 40px;
+    background: #f7f5f4;
     display: flex;
     align-items: center;
     border-radius: 60px;
@@ -119,19 +121,21 @@ nav img {
 }
 
 .search-bar button img {
-    width: 25px;
+    width: 20px;
     position:absolute;
-    left: 63.9%;
-    top: 44%;
+    left: 29%;
+    top: 30%;
 }
 
 .search-bar button {
     border: 0;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: black;
     cursor: pointer;
+    position: relative;
+    left: 10px;
 }
 
 .div1 {

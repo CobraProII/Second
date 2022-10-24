@@ -10,7 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../images/7f51b4ede0dd7655772b5a254aa417c7.jpg);
+    background: url(../images/img2.jpg);
+    background-image: url(../images/img2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .box {
